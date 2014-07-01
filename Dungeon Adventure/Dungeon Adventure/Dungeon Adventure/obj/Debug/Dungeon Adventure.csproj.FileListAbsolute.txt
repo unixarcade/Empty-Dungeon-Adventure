@@ -3,3 +3,9 @@ C:\Users\For You\Documents\GitHub\IntroToCSharp\ConsoleColors\Dungeon Adventure\
 C:\Users\For You\Documents\GitHub\IntroToCSharp\ConsoleColors\Dungeon Adventure\Dungeon Adventure\Dungeon Adventure\bin\Debug\Dungeon Adventure.pdb
 C:\Users\For You\Documents\GitHub\IntroToCSharp\ConsoleColors\Dungeon Adventure\Dungeon Adventure\Dungeon Adventure\obj\Debug\Dungeon Adventure.exe
 C:\Users\For You\Documents\GitHub\IntroToCSharp\ConsoleColors\Dungeon Adventure\Dungeon Adventure\Dungeon Adventure\obj\Debug\Dungeon Adventure.pdb
+C:\Users\For You\Documents\GitHub\Empty Dungeon Adventure\Empty-Dungeon-Adventure\Dungeon Adventure\Dungeon Adventure\Dungeon Adventure\bin\Debug\Dungeon Adventure.exe.config
+C:\Users\For You\Documents\GitHub\Empty Dungeon Adventure\Empty-Dungeon-Adventure\Dungeon Adventure\Dungeon Adventure\Dungeon Adventure\obj\Debug\Dungeon Adventure.exe
+C:\Users\For You\Documents\GitHub\Empty Dungeon Adventure\Empty-Dungeon-Adventure\Dungeon Adventure\Dungeon Adventure\Dungeon Adventure\obj\Debug\Dungeon Adventure.pdb
+C:\Users\For You\Documents\GitHub\Empty Dungeon Adventure\Empty-Dungeon-Adventure\Dungeon Adventure\Dungeon Adventure\Dungeon Adventure\bin\Debug\Dungeon Adventure.exe
+C:\Users\For You\Documents\GitHub\Empty Dungeon Adventure\Empty-Dungeon-Adventure\Dungeon Adventure\Dungeon Adventure\Dungeon Adventure\bin\Debug\Dungeon Adventure.pdb
+C:\Users\For You\Documents\GitHub\Empty Dungeon Adventure\Empty-Dungeon-Adventure\Dungeon Adventure\Dungeon Adventure\Dungeon Adventure\obj\Debug\Dungeon Adventure.csprojResolveAssemblyReference.cache

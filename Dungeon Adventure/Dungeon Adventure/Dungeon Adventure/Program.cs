@@ -11,44 +11,56 @@ namespace Dungeon_Adventure
 {
     class Program
     {
+
+        static void myexit()
+        {
+            Environment.Exit(0);
+        }
         static void Main(string[] args)
         {
+            
+           
             string name, yn, adventure;
             Console.Title =" Mindscape Dungeon Adventure";
-            Console.WriteLine("Welcome Adventurer");
-            Console.WriteLine("What is your name?");
+            Console.WriteLine(" Welcome Adventurer ");
+            Console.WriteLine(" What is your name? ");
             name = Console.ReadLine();
-            Console.WriteLine("Would you like to go on an adventure" + name);
-            Console.WriteLine("Yes or No");
+            Console.WriteLine(" Would you like to go on an adventure " + name);
+            Console.WriteLine(" Yes or No ");
             yn = Console.ReadLine();
            yn = yn.ToUpper();
            if (yn == "YES")
            {
-               Console.WriteLine("Then let the adventure begin");
-               Console.WriteLine("Do you want to go to the Forest, Mountain, Plains, Island, Swamp? ");
+               Console.WriteLine(" Then let the adventure begin ");
+               Console.WriteLine(" Do you want to go to the Forests, Mountains, Plains, Islands, Swamps? ");
                adventure = Console.ReadLine();
                adventure = adventure.ToUpper();
 
               string welcometo = "Welcome to the ";
                switch (adventure)
                {
-                   case "Forest":
-                       Console.WriteLine(welcometo +" Forest");
+                   case "FORESTS":
+                      
+                       Console.WriteLine(welcometo +" Forests");
 
                       break;
-                  case "Mountain":
+                  case "MOUNTAINS":
+                      
                       Console.WriteLine( welcometo + " Mountains");
                       
                       
                       break;
-                   case "Plains":
+                   case "PLAINS":
                       Console.WriteLine(welcometo + " Plains");
                        
                        break;
-                  case "Islands":
-                       Console.WriteLine(welcometo + " Islands");
+                  case "ISLANDS":
+                       myexit();
+                      
+                      Console.WriteLine(welcometo + " Islands");
                      break;
-                   case "Swamp":
+                   case "SWAMPS":
+                     Console.WriteLine(welcometo + " Swamps");
                       break;
 
                    default:
