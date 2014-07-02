@@ -29,7 +29,7 @@ namespace Dungeon_Adventure
             Console.WriteLine(" Yes or No ");
             yn = Console.ReadLine();
            yn = yn.ToUpper();
-           if (yn == "YES")
+           if (yn == ("YES") || yn == ("Y"))
            {
                Console.WriteLine(" Then let the adventure begin ");
                Console.WriteLine(" Do you want to go to the Forests, Mountains, Plains, Islands, Swamps? ");
