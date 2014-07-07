@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Drawing;
+
 // Luminosity
 // http://luminosity.livejournal.com
 
@@ -12,13 +15,37 @@ namespace Dungeon_Adventure
     class Program
     {
 
+        
         static void myexit()
         {
             Environment.Exit(0);
         }
         static void Main(string[] args)
         {
-            
+            // Form Source Code
+            // This Code Should really be in a Class
+            Form f = new Form();
+           
+            f.Text = "  Empty Dungeon Adventure  ";
+            f.Name = "Empty Dungeon Adventure";
+            Label nameLabel = new Label();
+            nameLabel.AutoSize = true;
+            nameLabel.Text = "Empty Dungeon Adventure";
+            nameLabel.Top = 100;
+            nameLabel.Left = 80;
+            f.Controls.Add(nameLabel);
+            f.ShowDialog();
+
+
+
+
+
+            // End of Form Code
+
+
+
+
+
            
             string name, yn, adventure;
             Console.Title =" Mindscape Dungeon Adventure";
