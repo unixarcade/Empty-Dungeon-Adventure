@@ -12,12 +12,11 @@ https://github.com/unixarcade/Empty-Dungeon-Adventure
 
 
 Things it does not include
-screens
+
 a game loop
 lots of variables to control a character
 story
-classes
-and just about anything else you could want.
+and many other things you could want
 
 
 The good news is that it is mostly empty which is a fairly good starting point when you want a point to start so either if you know little or nothing you could use the statements follow them out and make the game and world more rich.
