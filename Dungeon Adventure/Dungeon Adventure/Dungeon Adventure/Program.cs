@@ -44,7 +44,8 @@ namespace Dungeon_Adventure
             {
                 Console.WriteLine(" Yes or No ?");
                 string yn = Console.ReadLine();
-                if (yn == "y" || yn == "ye")
+                yn = yn.ToUpper();
+                if (yn=="YES" || yn == "Y" || yn == "YE")
                 {
                     yn = "YES";
                 }
@@ -52,7 +53,7 @@ namespace Dungeon_Adventure
                 {
                     yn = "NO";
                 }
-                yn = yn.ToUpper();
+               
                 return yn;
             }
             static void Main(string[] args)
