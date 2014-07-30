@@ -87,6 +87,8 @@ namespace Dungeon_Adventure
 
 
                 string name, yn, adventure;
+
+                TextScreen.myTextScreen();
                 Console.Title = " Mindscape Dungeon Adventure";
                 Console.WriteLine(" Welcome Adventurer ");
                 Console.WriteLine(" What is your name? ");
