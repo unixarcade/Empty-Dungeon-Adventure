@@ -1,5 +1,5 @@
 <h1>Empty-Dungeon-Adventure</h1>
-=======================
+<hr />
 http://luminosity.livejournal.com
 
 http://luminosity.livejournal.com/964337.html
