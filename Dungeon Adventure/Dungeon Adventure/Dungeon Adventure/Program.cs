@@ -78,9 +78,20 @@ namespace Dungeon_Adventure
                 Console.WriteLine();
                 name = Console.ReadLine();
                 Console.WriteLine();
+
+                do
+                {
+                    Console.Clear();
                 Console.WriteLine(" Would you like to go on an adventure " + name);
                
                 yn = myYesNo();
+
+               
+                if (yn == ("NO") || yn == "N")
+                {
+                    myexit();
+                }
+
                 if (yn == ("YES") || yn == ("Y"))
                 {
                     Console.WriteLine(" Then let the adventure begin ");
@@ -146,7 +157,7 @@ namespace Dungeon_Adventure
 
 
 
-
+                } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
 
             }
         }
