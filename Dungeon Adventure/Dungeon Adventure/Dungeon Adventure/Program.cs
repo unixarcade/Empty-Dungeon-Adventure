@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Speech.Synthesis;
 
 // Luminosity
 // http://luminosity.livejournal.com
@@ -14,23 +15,7 @@ namespace Dungeon_Adventure
 {
 
 
-    //public partial class Form1 : Form
-    //{
-    //    public Form1()
-    //    {
-    //        InitializeComponent();
-
-    //    }
-
-    //    private void InitializeComponent()
-    //    {
-    //        throw new NotImplementedException();
-    //    }
-
-    //    private void Form1_Load(object sender, EventArgs e)
-    //    {
-
-    //    }
+    
         class Program
         {
 
@@ -58,28 +43,7 @@ namespace Dungeon_Adventure
             }
             static void Main(string[] args)
             {
-                //// Form Source Code
-                //// This Code Should really be in a Class
-                //Form f = new Form();
-
-                //f.Text = "  Empty Dungeon Adventure  ";
-                //f.Name = "Empty Dungeon Adventure";
-                //Label nameLabel = new Label();
-                //nameLabel.AutoSize = true;
-                //nameLabel.Text = "Empty Dungeon Adventure";
-                //nameLabel.Top = 100;
-                //nameLabel.Left = 80;
-                //f.Controls.Add(nameLabel);
-                //f.ShowDialog();
-
-
-
-
-
-                //// End of Form Code
-
-               // Form1 f1 = new Form1();
-               // f1.ShowDialog();
+               
 
 
 
@@ -88,14 +52,32 @@ namespace Dungeon_Adventure
 
                 string name, yn, adventure;
 
-
+                #region Game Startup
                 TextScreen.MyColorTextScreen(); // Colored Screen
                 // TextScreen.myTextScreen(); // BW Graphic
                 Console.ForegroundColor = ConsoleColor.White;
+
+                using (SpeechSynthesizer synth = new SpeechSynthesizer())
+                {
+                    synth.Speak("Mindscape Dungeon Adventure"); // Spoken Title
+                }
+
+
+
                 Console.Title = " Mindscape Dungeon Adventure";
+                Console.WriteLine(" Mindscape Dungeon Adventure");
+                Console.WriteLine();
                 Console.WriteLine(" Welcome Adventurer ");
+                Console.WriteLine();
+
+                #endregion
+
+
+
                 Console.WriteLine(" What is your name? ");
+                Console.WriteLine();
                 name = Console.ReadLine();
+                Console.WriteLine();
                 Console.WriteLine(" Would you like to go on an adventure " + name);
                
                 yn = myYesNo();
@@ -107,6 +89,8 @@ namespace Dungeon_Adventure
                     adventure = adventure.ToUpper();
 
                     string welcometo = "Welcome to the ";
+
+                    #region Adventure 
                     switch (adventure)
                     {
                         case "FORESTS":
@@ -152,7 +136,7 @@ namespace Dungeon_Adventure
 
                 Console.ReadKey();
 
-
+                    #endregion
 
 
 
