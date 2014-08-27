@@ -81,7 +81,7 @@ namespace Dungeon_Adventure
 
                 do
                 {
-                    Console.Clear();
+                    GameHelpers.RefreshConsole();
                 Console.WriteLine(" Would you like to go on an adventure " + name);
                
                 yn = myYesNo();
@@ -156,7 +156,7 @@ namespace Dungeon_Adventure
 
 
 
-
+                GameHelpers.RefreshConsole();
                 } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
 
             }
