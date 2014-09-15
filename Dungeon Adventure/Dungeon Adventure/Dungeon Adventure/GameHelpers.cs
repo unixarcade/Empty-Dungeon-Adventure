@@ -19,6 +19,26 @@ using System.Threading.Tasks;
 
         #endregion
 
+
+        #region Space and Clean
+        public static void SpaceandClean()
+        {
+            Console.Clear();
+            Console.WriteLine("\n \n");
+
+        }
+#endregion
+
+        #region Startup
+        public static void Startup()
+        {
+            Console.WindowHeight = Console.LargestWindowHeight;
+
+            GameHelpers.RefreshConsole();
+            GameHelpers.SpaceandClean();
+        }
+
+        #endregion
         #region DieRoll
         public static Int64 DieRoll()
         {
