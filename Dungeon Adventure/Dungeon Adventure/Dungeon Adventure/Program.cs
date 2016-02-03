@@ -130,15 +130,17 @@ namespace Dungeon_Adventure
                 {
                     Console.WriteLine(" Then let the adventure begin ");
 
-                    Console.WriteLine(" Then let the adventure begin ");
+                   
                     Console.Write(" Do you want to go to the ");
+                    // this below
                     Console.ForegroundColor = printlightgreen;
+                    // or C.lightgreen(); instead of above
                     Console.Write(" Forests, ");
-                    Console.ForegroundColor = printlightred;
+                    C.red();
                     Console.Write(" Mountains, ");
                     Console.ForegroundColor = printlightyellow;
                     Console.Write(" Plains, ");
-                    Console.ForegroundColor = printlightblue;
+                    C.blue();
                     Console.Write(" Islands, ");
                     Console.ForegroundColor = printlightgrey;
                     Console.Write(" Swamps?  \n");
